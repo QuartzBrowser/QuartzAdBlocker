@@ -1,0 +1,17 @@
+{
+  "maxRuleCount": 30000,
+  "parsedLineCount": 71171,
+  "ruleCount": 30000,
+  "skippedLineCount": 41171,
+  "sourceFiles": [
+    "quartz/privacy.txt",
+    "uBlockOrigin/assets/ublock/filters.min.txt",
+    "uBlockOrigin/assets/ublock/privacy.min.txt",
+    "uBlockOrigin/assets/ublock/badware.min.txt",
+    "uBlockOrigin/assets/ublock/quick-fixes.min.txt",
+    "uBlockOrigin/assets/ublock/unbreak.min.txt",
+    "uBlockOrigin/assets/thirdparties/easylist/easylist.txt",
+    "uBlockOrigin/assets/thirdparties/easylist/easyprivacy.txt",
+    "uBlockOrigin/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Quartz Ad Blocker",
+  "version": "0.1.0",
+  "description": "Optional network ad blocking for Quartz.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "Quartz Ad Blocker"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "quartz_ad_block_rules",
+        "enabled": true,
+        "path": "rules/rules.json"
+      }
+    ]
+  }
+}
+
