@@ -1,13 +1,13 @@
 # Quartz Ad Blocker
 
-Optional ad blocking for Quartz as a WebExtension package.
+Optional ad blocking for Quartz as a single `.qrx` WebExtension package.
 
 ## Install in Quartz
 
-1. Build or download this repository.
+1. Build or download `QuartzAdBlocker.qrx`.
 2. Open Quartz on macOS 15.4 or later.
 3. Choose **Extensions > Install Extension...**.
-4. Select the `Extension` directory in this repository, or a ZIP archive of that directory.
+4. Select the `.qrx` package.
 
 Quartz loads installed extensions before the first page navigation on later launches.
 
@@ -25,3 +25,10 @@ python3 Tools/generate_rules.py
 
 The generator reads `Filters/` and writes `Extension/rules/rules.json` plus `Extension/rules/metadata.json`.
 
+## Build QRX Package
+
+```sh
+python3 Tools/package_qrx.py
+```
+
+The packager writes `dist/QuartzAdBlocker.qrx`. The `.qrx` file is a Zip-compatible extension package with `manifest.json` at the archive root, which is the single file Quartz installs.
