@@ -8,5 +8,4 @@ This repository contains filter assets and generated rules derived from the form
 - Original asset: `uBlock0_1.71.0.chromium.zip`
 - License: GPL-3.0-or-later, preserved at `Filters/uBlockOrigin/LICENSE.txt`
 
-The generated `Extension/rules/rules.json` file is produced from the compatible network-filter subset of the filter files in `Filters/`.
-
+The generated `Extension/rules/rules.json` file is produced from the compatible network-filter subset of the filter files in `Filters/`. The `.qrx` package is a Zip-compatible archive of the generated extension files.
